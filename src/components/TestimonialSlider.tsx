@@ -48,14 +48,14 @@ const TestimonialSlider = () => {
         </div>
 
         <div className="max-w-4xl mx-auto relative">
-          <Card className="bg-navy-light border-white/10 p-12 text-center">
+          <Card className="bg-white border-gray-200 p-12 text-center">
             <Quote className="h-12 w-12 text-accent mx-auto mb-6" />
-            <p className="text-xl md:text-2xl mb-6 leading-relaxed">
+            <p className="text-xl md:text-2xl mb-6 leading-relaxed text-gray-800">
               "{testimonials[current].quote}"
             </p>
-            <div className="border-t border-white/10 pt-6">
-              <p className="font-bold text-lg">{testimonials[current].author}</p>
-              <p className="text-gray-400">{testimonials[current].position}</p>
+            <div className="border-t border-gray-200 pt-6">
+              <p className="font-bold text-lg text-gray-900">{testimonials[current].author}</p>
+              <p className="text-gray-600">{testimonials[current].position}</p>
             </div>
           </Card>
 
